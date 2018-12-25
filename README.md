@@ -1,21 +1,13 @@
 # css-mode
 
-## Project setup
-```
-yarn install
-```
+该项目展示了三种css编写模式
+1. BEM sass
+* 优点: 传统方式 模块化较清晰 不容易冲突
+* 缺点: 类名复杂 复用性较差
+1. css modules
+* 优点: 可以写传统css 完全组件化
+* 缺点: 复用性一般 没法覆盖组件内样式
+1. styled-components
+* 优点: 完全组件化 完全js化 样式与js贯通样式控制更灵活 html书写简化
+* 缺点: 无法写传统css 方案较激进 没法覆盖组件内样式
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
